@@ -1,0 +1,180 @@
+body{
+    background-color: black;
+}
+marquee{
+    color: blue;
+    background-color: chartreuse;
+}
+#face{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+}
+#leya,#reya{
+    height: 25px;
+    width: 25px;
+    background: black;
+    border-radius: 50%;
+    margin: auto;
+    
+
+}
+#larm,#rarm{
+    height: 100px;
+    width: 25px;
+    background: chartreuse;
+    margin-top: 18px;
+    border-radius: 50px;
+}
+#center{
+    height: 300px;
+    width: 200px;
+    background: chartreuse;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+#body{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 15px;
+
+}
+#llegs,#rlegs{
+    height: 100px;
+    width: 25px;
+    background: chartreuse;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 50px;    
+}
+#legs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: auto;
+    margin-top: -18px;
+
+}
+#main{
+    height: 800px;
+    width: 350px;
+    margin-top: 80px;
+    border: 5px solid white;
+    margin:auto;
+    background: navy;
+
+}
+#main:hover #face{
+    animation: hatersorg 0.5s infinite;
+    height: 250px;
+    width: 250px;
+}
+@keyframes hatersorg{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+        background: turquoise;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: bottom center;
+        background: red;
+    }
+}
+#main:hover #llegs{
+    animation: chanelegs 0.5s infinite;
+    height: 120px;
+    width: 20px;
+    
+}
+@keyframes chanelegs{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+        background: red;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: bottom center;
+        background: royalblue;
+    }
+}
+#main:hover #rlegs{
+    animation: map 0.5s infinite;
+    height: 120px;
+    width: 20px;
+}
+@keyframes map{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+        background: salmon;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: bottom center;
+        background: gold;
+    }
+}
+#main:hover #larm{
+    animation: karthi 0.5s infinite;
+    height: 120px;
+    width: 20px;
+}
+@keyframes karthi{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+        background: gold;
+
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: bottom center;
+        background: hotpink;
+    }
+}
+#main:hover #rarm{
+    animation: gopi 0.5s infinite;
+    height: 120px;
+    width: 20px;
+}
+@keyframes gopi{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+        background: gold;
+
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: bottom center;
+        background: hotpink;
+    }
+}
+#main:hover #center{
+    animation: vaigai 0.5s infinite;
+    height: 300px;
+    width: 200px;
+}
+@keyframes vaigai{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+        background: greenyellow;
+
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: bottom center;
+        background: fuchsia;
+    }
+}
